@@ -1,4 +1,4 @@
-# MARGINALIA Book Club
+# Award Book Club
 
 A playful book subscription website, inspired by the energy of aardvarkbookclub.com.
 Original design: layout ideas and motion language are referenced; no brand assets, covers or copy are reused.
@@ -6,6 +6,7 @@ Original design: layout ideas and motion language are referenced; no brand asset
 ## Stack
 
 Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS 4, Framer Motion, Three.js, React Three Fiber, Drei, Lucide React.
+Fonts are self-hosted through Fontsource (Bricolage Grotesque, DM Sans, Caveat), so builds do not depend on Google Fonts.
 
 ## Design
 
@@ -13,6 +14,7 @@ Next.js 16 (App Router), React 19, TypeScript, Tailwind CSS 4, Framer Motion, Th
 - Type: Bricolage Grotesque (display), DM Sans (body), Caveat (handwritten notes)
 - Rounded colour-blocked sections with organic wave backgrounds
 - 3D hero book, tilted card fans, marquee ticker, sticker pills, sticky FAQ categories
+- Navbar gains a blurred oat background once the page is scrolled
 - Typographic generated book covers (no third-party images)
 - Respects `prefers-reduced-motion`
 
@@ -43,4 +45,4 @@ Set `NEXT_PUBLIC_SITE_URL` in Vercel for canonical, OpenGraph and sitemap URLs.
 
 ## Credits
 
-Design reference: aardvarkbookclub.com (not affiliated).
+Design reference: aardvarkbookclub.com (not affiliated). All books, authors, quotes and prices are fictional.
